@@ -32,7 +32,7 @@ const CustomWebcam = () => {
     e.preventDefault()
 
     if (imgSrc) {
-      fetch('http://172.232.30.72:3000/image', {
+      fetch('http://172.232.30.72:3001/image', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
