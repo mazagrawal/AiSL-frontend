@@ -35,7 +35,7 @@ video {
   border: none;
   padding: 16px 56px;
   border-radius: 8px;
-  background-color: #0070f3;
+  background-color: rgb(100 76 246 / 100%);
   color: white;
   font-size: 16px;
   box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
@@ -43,6 +43,6 @@ video {
 }
 
 .btn-container button:hover {
-  background: rgba(0, 118, 255, 0.9);
+  background: rgba(108, 76, 201, 0.9);
   box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
 }
